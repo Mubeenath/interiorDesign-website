@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>design</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+<script defer src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+<header class="header">
+        <nav class="nav">
+          <img
+            src="img/logo.png"
+            alt="Bankist logo"
+            class="nav__logo"
+            id="logo"
+            designer="Jonas"
+            data-version-number="3.0"
+          />
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#section--1">Features</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--2">Packages</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--3">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn btn--show-modal" href="#section--4"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-container">
+            <div class="header-container-inner">
+              <h1>Design your home, as your dreams..</h1>
+              <h4>
+                Lorem ipsum dolor sit amet,consectetur adipisicing elit.<br>
+                 Repudiandae fugit possimus.
+                  </h4>
+              <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+            </div>
+          </div>
+        
+</header>
+    <main>
+        <section class="section" id="section--1">
+            <div class="section__title">
+              <h2 class="section__description">Features</h2>
+              <h3 class="section__header">
+                Everything you need in a modern home and expert designers.
+              </h3>
+            </div>
+      
+            <div class="features">
+              <img
+                src="img/understand.jpg"
+                alt="Computer"
+                class="features__img"
+              />
+              <div class="features__feature">
+                <div class="features__icon">
+                  <svg>
+                    <use xlink:href="img/icons.svg#icon-monitor"></use>
+                  </svg>
+                </div>
+                <h5 class="features__header">Understand your needs</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+                  sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+                  debitis ducimus.
+                </p>
+              </div>
+      
+              <div class="features__feature">
+                <div class="features__icon">
+                  <svg>
+                    <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                  </svg>
+                </div>
+                <h5 class="features__header">Plan according to need</h5>
+                <p>
+                  Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+                  inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+                  quibusdam!
+                </p>
+              </div>
+              <img
+                src="img/plan.jpg"
+                alt="Plant"
+                class="features__img"
+              />
+      
+              <img
+                src="img/budget.jpg"
+                data-src="img/card.jpg"
+                alt="Credit card"
+                class="features__img lazy-img"
+              />
+              <div class="features__feature">
+                <div class="features__icon">
+                  <svg>
+                    <use xlink:href="img/icons.svg#icon-credit-card"></use>
+                  </svg>
+                </div>
+                <h5 class="features__header">Budgeting and cost optimsation</h5>
+                <p>
+                  Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+                  eveniet consequatur odit quam quos possimus assumenda dicta fuga
+                  inventore ab.
+                </p>
+              </div>
+
+              <div class="features__feature">
+                <div class="features__icon">
+                  <svg>
+                    <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                  </svg>
+                </div>
+                <h5 class="features__header">Site handover and warrenty</h5>
+                <p>
+                  Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+                  inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+                  quibusdam!
+                </p>
+              </div>
+              <img
+                src="img/final.jpg"
+                alt="Plant"
+                class="features__img"
+              />
+            </div>
+
+     </section>
+        <section class="section" id="section--2">
+            <div class="section__title section__title--testimonials">
+              <h2 class="section__description">Not sure yet?</h2>
+              <h3 class="section__header">
+                Millions of designs are already for your dreams.
+              </h3>
+            </div>
+            <div class="fbox">
+            <div class="room">
+                <img
+                  src="img/bedroom.jpg"
+                  class="room-img"
+                  alt="Japanese Gyozas"
+                />
+                <div class="room-content">
+                  <div class="room-tags">
+                    <span class="tag tag--contem">contempray</span>
+                  </div>
+                  <p class="room-title">Bed Room</p>
+                  <ul class="room-attributes">
+                    <li class="room-attribute">
+                      <ion-icon class="room-icon" name="star-outline"></ion-icon>
+                      <span><strong>4.9</strong> rating (537)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="room">
+                <img
+                  src="img/dining.jpeg"
+                  class="room-img"
+                  alt="Japanese Gyozas"
+                />
+                <div class="room-content">
+                  <div class="room-tags">
+                    <span class="tag tag--ethinic">Ethinic</span>
+                  </div>
+                  <p class="room-title">Dining Room</p>
+                  <ul class="room-attributes">
+                    <li class="room-attribute">
+                      <ion-icon class="room-icon" name="star-outline"></ion-icon>
+                      <span><strong>4.7</strong> rating (427)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="room">
+                <img
+                  src="img/living.jpg"
+                  class="room-img"
+                  alt="Japanese Gyozas"
+                />
+                <div class="room-content">
+                  <div class="room-tags">
+                    <span class="tag tag--classic">Classic</span>
+                  </div>
+                  <p class="room-title">Living Room</p>
+                  <ul class="room-attributes">
+                    <li class="room-attribute">
+                      <ion-icon class="room-icon" name="star-outline"></ion-icon>
+                      <span><strong>4.9</strong> rating (600)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="room">
+                <img
+                  src="img/guestroom.jpg"
+                  class="room-img"
+                  alt="Japanese Gyozas"
+                />
+                <div class="room-content">
+                  <div class="room-tags">
+                    <span class="tag tag--fusion">Fusion</span>
+                  </div>
+                  <p class="room-title">Guest Room</p>
+                  <ul class="room-attributes">
+                    <li class="room-attribute">
+                      <ion-icon class="room-icon" name="star-outline"></ion-icon>
+                      <span><strong>4.5</strong> rating (389)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="section" id="section--3">
+            <div class="section__title section__title--testimonials">
+              <h2 class="section__description">Not sure yet?</h2>
+              <h3 class="section__header">
+                Millions of customers are already made their dream home.
+              </h3>
+            </div>
+      
+            <div class="slider">
+              <div class="slide">
+                <div class="testimonial carousel">
+                    <img src="img/customer-1.jpg" class="customer" alt="Maria de Almeida" />
+                    <blockquote class="testimonial">
+                      <p class="testimonial-text">
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+                        nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+                        sunt hic illo fugit."
+                      </p>
+                      <p class="testimonial-author">Maria de Almeida</p>
+                      <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+                    </blockquote>
+                </div>
+              </div>
+      
+              <div class="slide">
+                <div class="testimonial carousel">
+                    <img src="img/customer-2.jpg" class="customer" alt="Maria de Almeida" />
+                    <blockquote class="testimonial">
+                      <p class="testimonial-text">
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+                        nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+                        sunt hic illo fugit."
+                      </p>
+                      <p class="testimonial-author">Maria de Almeida</p>
+                      <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+                    </blockquote>
+                </div>
+              </div>
+      
+              <div class="slide">
+                <div class="testimonial carousel">
+                    <img src="img/customer-3.jpg" class="customer" alt="Maria de Almeida" />
+            <blockquote class="testimonial">
+            <p class="testimonial-text">
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+          nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+          sunt hic illo fugit."
+        </p>
+        <p class="testimonial-author">Maria de Almeida</p>
+        <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+      </blockquote>
+                </div>
+              </div>
+      
+              <button class="slider__btn slider__btn--left">&larr;</button>
+              <button class="slider__btn slider__btn--right">&rarr;</button>
+              <div class="dots"></div>
+            </div>
+          </section>
+      
+          <section class="section" id="section--4">
+            <div class="container">
+              <div class="cta">
+                <div class="cta-text-box">
+                  <h2 class="section__header">Get our designers for queries!</h2>
+                  <p class="cta-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita <br>consequatur temporibus neque quidem perspiciatis .
+                  </p>
+    
+                  <form class="cta-form" action="#">
+                    <div>
+                      <label for="full-name">Full Name</label>
+                      <input
+                        id="full-name"
+                        type="text"
+                        placeholder="your name"
+                        required
+                      />
+                    </div>
+    
+                    <div>
+                      <label for="email">Email address</label>
+                      <input
+                        id="email"
+                        type="email"
+                        placeholder="me@example.com"
+                        required
+                      />
+                    </div>
+    
+                    <div>
+                      <label for="select-where">Where did you hear from us?</label>
+                      <select id="select-where" required>
+                        <option value="">Please choose one option:</option>
+                        <option value="friends">Friends and family</option>
+                        <option value="youtube">YouTube video</option>
+                        <option value="podcast">Podcast</option>
+                        <option value="ad">Facebook ad</option>
+                        <option value="others">Others</option>
+                      </select>
+                    </div>
+    
+                    <button class="btn--signup">Sign up now</button>
+    
+                    <!-- <input type="checkbox" />
+                    <input type="number" /> -->
+                  </form>
+                </div>
+                <div id="map"></div>
+              </div>
+            </div>
+          </section>  
+      
+    </main>
+<footer class="footer">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a class="footer__link" href="#">About</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Pricing</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Terms of Use</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Careers</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <img src="img/logo.png" alt="Logo" class="footer__logo" />
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link twitter-link"
+            target="_blank"
+            href="#"
+            >Mubeenath M K</a
+          >. made for learning .
+        </p>
+      </footer>
+    
+</body>
+</html>
